@@ -25,3 +25,6 @@ The project uses the following:
 5. `extent-config.xml` file is used to set the extent reports configuration.
 6. In `/test-output` directory generated reports are saved as .html file which could be opened in any browsers to view the report.
 
+## Project Demo Record
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/MkoW96MZqQY/0.jpg)](http://www.youtube.com/watch?v=MkoW96MZqQY "Selenium UI Automation")
