@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Web Test Suite" thread-count="1" parallel="tests" verbose="1">
+    <parameter name="browser" value="chrome" />
+    <listeners>
+        <listener class-name="automation.utils.Reporting"></listener>
+
+    </listeners>
+    <test name="Place Order: Register Before Checkout - chrome" parallel="methods" thread-count="1">
+
+        <classes>
+            <class name="automation.EcomPageTest"></class>
+        </classes>
+
+    </test>
+
+</suite>
